@@ -1,0 +1,44 @@
+*{
+ box-sizing: border-box;
+}
+
+.small-box-without-border{
+  width: 50px;
+  margin: 10px;
+}
+
+.big-box-without-border{
+  width: 50px;
+  margin: 10px;
+}
+
+.small-box{
+  margin: 10px;
+  border: 20px solid black;
+  width: 50px;
+}
+
+.big-box{
+  margin: 20px;
+  border: 20px solid black;
+  width: calc(10% - 50px);
+  height: 100px;
+}
+
+.center{
+
+  margin: -800px;
+  width: 100%;
+}
+
+.clear{
+  clear: both;
+}
+
+.float-right{
+  float: left;
+}
+
+.float-left{
+  float: right;
+}
