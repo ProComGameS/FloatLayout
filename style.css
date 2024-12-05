@@ -25,20 +25,36 @@
   height: 100px;
 }
 
-.center{
-
-  margin: -800px;
-  width: 100%;
-}
-
-.clear{
-  clear: both;
-}
-
 .float-right{
   float: left;
 }
 
 .float-left{
   float: right;
+}
+
+.container-center {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.center {
+  overflow: hidden;
+}
+
+.big-box-n {
+  margin-right: 10px;
+  float: left;
+  border: 20px solid black;
+  width: 140px;
+  height: 100px;
+}
+
+.container-for-small {
+  float: right;
+}
+
+.container-new-line {
+  float: left;
+  width: 100%;
 }
